@@ -1,0 +1,48 @@
+# --------------------
+# Python build artifacts
+# --------------------
+__pycache__/
+*.py[cod]
+*$py.class
+
+# --------------------
+# Packaging / build
+# --------------------
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# --------------------
+# Virtual environments
+# --------------------
+.venv/
+venv/
+env/
+ENV/
+
+# --------------------
+# Jupyter
+# --------------------
+.ipynb_checkpoints/
+
+# --------------------
+# OS / editor junk
+# --------------------
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# --------------------
+# IDEs
+# --------------------
+.vscode/
+.idea/
+.spyderproject
+.spyproject
+
+# --------------------
+# Logs / temp
+# --------------------
+*.log
+*.tmp
