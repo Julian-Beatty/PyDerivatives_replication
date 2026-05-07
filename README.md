@@ -33,7 +33,10 @@ cd PyDerivatives_replication
 # 3. Install the package
 pip install -e .
 
-# 4. Run the full replication
+# 3. Move working python directory to Replication Folder
+
+
+# 5. Run the full replication
 python replication.py
 ```
 
