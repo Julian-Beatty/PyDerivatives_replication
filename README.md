@@ -19,27 +19,78 @@ All data processing, estimation, and figure generation are fully automated.
 
 ## Installation and Replication
 
-To reproduce all results, run the following commands:
+To reproduce all results, use either the Conda-based installation (recommended) or a standard Python virtual environment.
+
+---
+
+### Option 1: Conda Environment (Recommended)
 
 ```bash
-# 1. Create a clean environment
+# 1. Create a clean Python 3.11 environment
 conda create -n pyderivatives_replication python=3.11 -y
+
+# 2. Activate the environment
 conda activate pyderivatives_replication
 
-# 2. Clone the repository
+# 3. Clone the repository
 git clone https://github.com/Julian-Beatty/PyDerivatives_replication.git
 cd PyDerivatives_replication
 
-# 3. Install the package
+# 4. Install the package and dependencies
 pip install -e .
-
-# 3. Move working python directory to Replication Folder
-
 
 # 5. Run the full replication
 python replication.py
 ```
 
 ---
+
+### Option 2: Standard Python Virtual Environment (No Conda Required)
+
+#### Windows
+
+```bat
+:: 1. Clone the repository
+git clone https://github.com/Julian-Beatty/PyDerivatives_replication.git
+cd PyDerivatives_replication
+
+:: 2. Create a clean virtual environment
+py -3.11 -m venv pyderivatives_replication_env
+
+:: 3. Activate the environment
+pyderivatives_replication_env\Scripts\activate
+
+:: 4. Upgrade pip
+python -m pip install --upgrade pip
+
+:: 5. Install the package and dependencies
+pip install -e .
+
+:: 6. Run the full replication
+python replication.py
+```
+
+#### Linux / macOS
+
+```bash
+# 1. Clone the repository
+git clone https://github.com/Julian-Beatty/PyDerivatives_replication.git
+cd PyDerivatives_replication
+
+# 2. Create a clean virtual environment
+python3.11 -m venv pyderivatives_replication_env
+
+# 3. Activate the environment
+source pyderivatives_replication_env/bin/activate
+
+# 4. Upgrade pip
+python -m pip install --upgrade pip
+
+# 5. Install the package and dependencies
+pip install -e .
+
+# 6. Run the full replication
+python replication.py
+```
 ## New Features
 ![Oil Pricing Kernel Surfaces](pyderivatives/Images/oil_pricing_kernel.png)
