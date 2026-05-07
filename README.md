@@ -69,28 +69,5 @@ pip install -e .
 :: 6. Run the full replication
 python replication.py
 ```
-
-#### Linux / macOS
-
-```bash
-# 1. Clone the repository
-git clone https://github.com/Julian-Beatty/PyDerivatives_replication.git
-cd PyDerivatives_replication
-
-# 2. Create a clean virtual environment
-python3.11 -m venv pyderivatives_replication_env
-
-# 3. Activate the environment
-source pyderivatives_replication_env/bin/activate
-
-# 4. Upgrade pip
-python -m pip install --upgrade pip
-
-# 5. Install the package and dependencies
-pip install -e .
-
-# 6. Run the full replication
-python replication.py
-```
 ## New Features
 ![Oil Pricing Kernel Surfaces](pyderivatives/Images/oil_pricing_kernel.png)
