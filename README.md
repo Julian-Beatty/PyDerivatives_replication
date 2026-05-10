@@ -1,6 +1,6 @@
 # PyDerivatives Replication: Zhang et al. (Asymmetric Returns and Higher Moments)
 
-This repository contains the replication materials for:
+This repository contains the replication code:
 
  *“The asymmetric relationship between returns and implied higher order moments : replicated and revisited”* by Julian Beatty.
 
