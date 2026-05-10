@@ -2,7 +2,7 @@
 
 This repository contains the replication materials for:
 
- *“The Asymmetric Relationship Between Returns and Implied Higher Moments in Oil”* by Zhang et al.
+ *“The asymmetric relationship between returns and implied higher order moments : replicated and revisited”* by Julian Beatty.
 
 ---
 ![Oil Implied Surfaces](pyderivatives/Images/oil_implied_surface.png)
