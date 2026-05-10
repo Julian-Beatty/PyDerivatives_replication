@@ -40,7 +40,7 @@ cd PyDerivatives_replication
 pip install -e .
 
 # 5. Run the full replication
-python replication.py
+python USO_replication.py
 ```
 
 ---
@@ -67,7 +67,7 @@ python -m pip install --upgrade pip
 pip install -e .
 
 :: 6. Run the full replication
-python replication.py
+python USO_replication.py
 ```
 ## New Features
 ![Oil Pricing Kernel Surfaces](pyderivatives/Images/oil_pricing_kernel.png)
