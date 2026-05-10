@@ -13,7 +13,7 @@ This replication reproduces and extends the main empirical results using option-
 
 The repository includes a **frozen version of the PyDerivatives 5.0 package**, ensuring that all results remain fully reproducible regardless of future updates to the main package.
 
-All data processing, estimation, and figure generation are fully automated.
+The folder named "Replication Folder" contains the option and return history data from Optionmetrics and CRSP, which cannot be shared publicly in this repo. 
 
 ---
 
