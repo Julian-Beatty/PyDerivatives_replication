@@ -8,7 +8,11 @@ The folder named "Replication Folder" contains the option and return history dat
 ![Oil Implied Surfaces](pyderivatives/Images/oil_implied_surface.png)
 
 ## Overview
-
+# 1.  Improved methodology for estimating risk neutral densities, using the stochastic volatility model with double exponential jumps.
+# 2.  Improved estimation of standard errors, using the circular block bootstrap method as opposed to the standard bootstrap.
+# 3.  More rigorous statistical methodology, featuring intersection union tests that can objectively evaluate the hypotheses presented in the original paper.
+# 4.  Results have been extended to include the more recently available data from 2013-2025.
+# 5.  Pricing kernels, and the physical densities are estimated and evaluated.
 
 ---
 
@@ -65,6 +69,4 @@ pip install -e .
 python USO_replication.py
 ```
 ## New Features
-
-
 ![Oil Pricing Kernel Surfaces](pyderivatives/Images/oil_pricing_kernel.png)
