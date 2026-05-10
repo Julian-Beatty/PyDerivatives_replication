@@ -6,6 +6,7 @@ The folder named "Replication Folder" contains the option and return history dat
 
 ---
 ![Oil Implied Surfaces](pyderivatives/Images/oil_implied_surface.png)
+![Oil Pricing Kernel Surfaces](pyderivatives/Images/oil_pricing_kernel.png)
 
 ## Overview
 
@@ -72,5 +73,3 @@ pip install -e .
 :: 6. Run the full replication
 python USO_replication.py
 ```
-## New Features
-![Oil Pricing Kernel Surfaces](pyderivatives/Images/oil_pricing_kernel.png)
