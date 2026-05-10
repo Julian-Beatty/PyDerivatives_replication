@@ -1,19 +1,14 @@
 # PyDerivatives Replication: Zhang et al. (Asymmetric Returns and Higher Moments)
 
-This repository contains the replication code for the paper submission:
-
- *“The asymmetric relationship between returns and implied higher order moments : replicated and revisited”* by Julian Beatty.
+This repository contains a **frozen version of the PyDerivatives 5.0 package**, which is neccessary to replicate the results in the paper submission:
+*“The asymmetric relationship between returns and implied higher order moments : replicated and revisited”* by Julian Beatty.
+The folder named "Replication Folder" contains the option and return history data from Optionmetrics and CRSP, which cannot be shared publicly in this repo. 
 
 ---
 ![Oil Implied Surfaces](pyderivatives/Images/oil_implied_surface.png)
 
 ## Overview
 
-This replication reproduces and extends the main empirical results using option-implied moments derived from crude oil ETFs.
-
-The repository includes a **frozen version of the PyDerivatives 5.0 package**, ensuring that all results remain fully reproducible regardless of future updates to the main package.
-
-The folder named "Replication Folder" contains the option and return history data from Optionmetrics and CRSP, which cannot be shared publicly in this repo. 
 
 ---
 
