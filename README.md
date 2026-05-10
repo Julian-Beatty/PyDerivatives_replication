@@ -70,4 +70,6 @@ pip install -e .
 python USO_replication.py
 ```
 ## New Features
+
+
 ![Oil Pricing Kernel Surfaces](pyderivatives/Images/oil_pricing_kernel.png)
